@@ -3,6 +3,7 @@
           package="com.yesyoudreamagain.loaderdemo">
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
             android:allowBackup="true"
@@ -12,14 +13,16 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".SecondActivity">
-        </activity>
-        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <!-- swap the launcher category in between two activites for testing-->
     </application>
 
 </manifest>

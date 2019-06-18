@@ -7,4 +7,13 @@
         android:layout_height="match_parent"
         tools:context=".SecondActivity">
 
+    <Button
+            android:text="Hit API"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/apihit_btn"
+            android:layout_marginEnd="162dp" android:layout_marginRight="162dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="341dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="162dp" android:layout_marginStart="162dp" android:layout_marginBottom="342dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 </android.support.constraint.ConstraintLayout>
